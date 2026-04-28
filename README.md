@@ -1,20 +1,33 @@
 # traversal-graf-strukdat
+------------------------------------------------------------------------------------------------------------------------------------------------
+# Graph Traversal: City Route Explorer
 
-Soal Cerita
+## Problem Statement
 
-Di sebuah kota terdapat beberapa tempat yang saling terhubung oleh jalan. Pemerintah kota ingin membuat sistem untuk menelusuri semua tempat yang bisa dikunjungi dari satu titik awal.
+Di sebuah kota terdapat beberapa lokasi penting yang saling terhubung oleh jalan.  
+Setiap jalan dapat dilalui dua arah.
 
-Terdapat N tempat dan M jalan. Setiap jalan menghubungkan dua tempat secara dua arah. Program harus menampilkan urutan kunjungan tempat menggunakan:
+Pemerintah kota ingin membuat sistem sederhana untuk menelusuri lokasi-lokasi yang dapat dikunjungi dari satu lokasi awal menggunakan dua metode traversal graf:
 
-BFS — menelusuri tempat terdekat terlebih dahulu.
-DFS — menelusuri sedalam mungkin terlebih dahulu.
+- Breadth First Search (BFS)
+- Depth First Search (DFS)
+
+Tugasmu adalah membuat program yang membaca data graf, lalu mencetak urutan traversal BFS dan DFS dari titik awal tertentu.
+
+---
+
+## Input Format
 
 Format Input:
 - N M
 - A B
 - A B
 ...
-START
+- START
+
+Format Output:
+- BFS: hasil_traversal_bfs
+- DFS: hasil_traversal_dfs
 
 Keterangan:
 - N = jumlah tempat
@@ -22,6 +35,7 @@ Keterangan:
 - A B = jalan antara tempat A dan B
 - START = tempat awal traversal
 
+```
 Contoh Input
 6 7
 A B
@@ -35,3 +49,4 @@ A
 Contoh Output
 BFS: A B C D E F
 DFS: A B D F C E
+```
