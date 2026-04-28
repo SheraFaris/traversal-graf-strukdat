@@ -9,19 +9,19 @@ Terdapat N tempat dan M jalan. Setiap jalan menghubungkan dua tempat secara dua 
 BFS — menelusuri tempat terdekat terlebih dahulu.
 DFS — menelusuri sedalam mungkin terlebih dahulu.
 
-Format Input
-N M
-A B
-A B
+Format Input:
+- N M
+- A B
+- A B
 ...
 START
 
 Keterangan:
+- N = jumlah tempat
+- M = jumlah jalan
+- A B = jalan antara tempat A dan B
+- START = tempat awal traversal
 
-N = jumlah tempat
-M = jumlah jalan
-A B = jalan antara tempat A dan B
-START = tempat awal traversal
 Contoh Input
 6 7
 A B
