@@ -1,0 +1,1 @@
+# traversal-graf-strukdat
