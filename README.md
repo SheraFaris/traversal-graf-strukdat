@@ -22,7 +22,6 @@ Format Input:
 - N M
 - A B
 - A B
-...
 - START
 
 Format Output:
