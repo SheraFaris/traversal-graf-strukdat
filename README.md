@@ -33,7 +33,8 @@ Keterangan:
 - M = jumlah jalan
 - A B = jalan antara tempat A dan B
 - START = tempat awal traversal
-
+- M beris berikutnya merupakan jalan yang menghubungkan tempat A ke B
+- Tempat (N) dimulah dari A seterusnya (A,B,C,D...)
 ```
 Contoh Input
 6 7
