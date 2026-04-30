@@ -19,10 +19,9 @@ Tugasmu adalah membuat program yang membaca data graf, lalu mencetak urutan trav
 ## Input Format
 
 Format Input:
-- N M
-- A B
-- A B
-- START
+1st line = N M
+Next M lines => A B 
+start
 
 Format Output:
 - BFS: hasil_traversal_bfs
@@ -33,20 +32,18 @@ Keterangan:
 - M = jumlah jalan
 - A B = jalan antara tempat A dan B
 - START = tempat awal traversal
-- M beris berikutnya merupakan jalan yang menghubungkan tempat A ke B
-- Tempat (N) dimulah dari A seterusnya (A,B,C,D...)
+- M beris setelah baris 1 merupakan jalan yang menghubungkan tempat A ke B
+- Tempat (N) dimulah dari 0 seterusnya (1, 2, 3, 4, 5 ...)
 ```
 Contoh Input
-6 7
-A B
-A C
-B D
-B E
-C F
-E F
-D F
-A
+5 4
+0 1
+0 2
+1 3
+2 4
+2
+
 Contoh Output
-BFS: A B C D E F
-DFS: A B D F C E
+BFS: 2 0 4 1 3
+DFS: 2 0 1 3 4
 ```
